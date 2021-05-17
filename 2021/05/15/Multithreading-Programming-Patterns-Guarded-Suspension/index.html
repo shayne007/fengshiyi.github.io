@@ -22,13 +22,13 @@
 <script class="next-config" data-name="main" type="application/json">{&quot;hostname&quot;:&quot;shayne007.github.io&quot;,&quot;root&quot;:&quot;&#x2F;&quot;,&quot;images&quot;:&quot;&#x2F;images&quot;,&quot;scheme&quot;:&quot;Muse&quot;,&quot;version&quot;:&quot;8.4.0&quot;,&quot;exturl&quot;:false,&quot;sidebar&quot;:{&quot;position&quot;:&quot;left&quot;,&quot;display&quot;:&quot;post&quot;,&quot;padding&quot;:18,&quot;offset&quot;:12},&quot;copycode&quot;:false,&quot;bookmark&quot;:{&quot;enable&quot;:false,&quot;color&quot;:&quot;#222&quot;,&quot;save&quot;:&quot;auto&quot;},&quot;fancybox&quot;:false,&quot;mediumzoom&quot;:false,&quot;lazyload&quot;:false,&quot;pangu&quot;:false,&quot;comments&quot;:{&quot;style&quot;:&quot;tabs&quot;,&quot;active&quot;:null,&quot;storage&quot;:true,&quot;lazyload&quot;:false,&quot;nav&quot;:null},&quot;motion&quot;:{&quot;enable&quot;:true,&quot;async&quot;:false,&quot;transition&quot;:{&quot;post_block&quot;:&quot;fadeIn&quot;,&quot;post_header&quot;:&quot;fadeInDown&quot;,&quot;post_body&quot;:&quot;fadeInDown&quot;,&quot;coll_header&quot;:&quot;fadeInLeft&quot;,&quot;sidebar&quot;:&quot;fadeInUp&quot;}},&quot;prism&quot;:false,&quot;i18n&quot;:{&quot;placeholder&quot;:&quot;Searching...&quot;,&quot;empty&quot;:&quot;We didn&#39;t find any results for the search: ${query}&quot;,&quot;hits_time&quot;:&quot;${hits} results found in ${time} ms&quot;,&quot;hits&quot;:&quot;${hits} results found&quot;}}</script>
 <meta name="description" content="Guarded Suspensionconcenpts concenpts">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Multithreading Programming Patterns---Guarded Suspension">
+<meta property="og:title" content="Multithreading Programming Patterns:Guarded Suspension">
 <meta property="og:url" content="https://shayne007.github.io/2021/05/15/Multithreading-Programming-Patterns-Guarded-Suspension/index.html">
 <meta property="og:site_name" content="Feng">
 <meta property="og:description" content="Guarded Suspensionconcenpts concenpts">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-05-14T17:25:35.000Z">
-<meta property="article:modified_time" content="2021-05-17T04:54:35.223Z">
+<meta property="article:modified_time" content="2021-05-17T04:56:26.248Z">
 <meta property="article:author" content="Feng Shiyi">
 <meta property="article:tag" content="concurrency">
 <meta name="twitter:card" content="summary">
@@ -38,10 +38,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;en&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;https:&#x2F;&#x2F;shayne007.github.io&#x2F;2021&#x2F;05&#x2F;15&#x2F;Multithreading-Programming-Patterns-Guarded-Suspension&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;05&#x2F;15&#x2F;Multithreading-Programming-Patterns-Guarded-Suspension&#x2F;&quot;,&quot;title&quot;:&quot;Multithreading Programming Patterns---Guarded Suspension&quot;}</script>
+<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;en&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;https:&#x2F;&#x2F;shayne007.github.io&#x2F;2021&#x2F;05&#x2F;15&#x2F;Multithreading-Programming-Patterns-Guarded-Suspension&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;05&#x2F;15&#x2F;Multithreading-Programming-Patterns-Guarded-Suspension&#x2F;&quot;,&quot;title&quot;:&quot;Multithreading Programming Patterns:Guarded Suspension&quot;}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">&quot;&quot;</script>
-<title>Multithreading Programming Patterns---Guarded Suspension | Feng</title><script src="/js/config.js"></script>
+<title>Multithreading Programming Patterns:Guarded Suspension | Feng</title><script src="/js/config.js"></script>
   
 
 
@@ -183,7 +183,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Multithreading Programming Patterns---Guarded Suspension
+          Multithreading Programming Patterns:Guarded Suspension
         </h1>
 
         <div class="post-meta-container">
@@ -201,7 +201,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2021-05-17 12:54:35" itemprop="dateModified" datetime="2021-05-17T12:54:35+08:00">2021-05-17</time>
+        <time title="Modified: 2021-05-17 12:56:26" itemprop="dateModified" datetime="2021-05-17T12:56:26+08:00">2021-05-17</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
